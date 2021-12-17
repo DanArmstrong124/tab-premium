@@ -1,0 +1,42 @@
+.event-item {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.event-graphic {
+    max-width: 530px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: 2px solid #083947;
+}
+
+.event-graphic img {
+    width: 100%;
+}
+
+.event-image {}
+
+.event-info {
+    text-align: justify;
+}
+
+/* LAPTOP */
+@media only screen and (min-width: 1024px) {
+    .event-graphic {
+        max-width: 700px;
+    }
+    .event-info {
+        font-size: 22px;
+    }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1440px) {
+    .event-graphic {
+        max-width: 980px;
+    }
+    .event-info {
+        font-size: 33px;
+    }
+}
